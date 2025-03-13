@@ -1,0 +1,14 @@
+
+.card{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgba(218, 142, 70, 0.219);
+    font-weight: 700;
+    opacity: 60%;
+    transition: transform 0.2s ease-in-out; 
+}
+
+.card:hover {
+  opacity: 100%;
+  transform: scale(1.1); 
+}
